@@ -4,4 +4,9 @@
 
 https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=de
 
-## Aufgabe
+## TODOS
+
+- Stylesheet Datei verbinden
+- HTML Struktur aufbauen
+  - Dabei auf semantische Tags wie z.B. `<nav>`, `<header>`, `<footer>`, `<section>`, `<article>` zurückgreifen
+- CSS anpassen
