@@ -1,0 +1,180 @@
+body {
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0;
+  color: darkblue;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header {
+  background: #fff;
+  padding: 30px 40px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px -10px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  width: calc(100% - 80px);
+  top: 0;
+  left: 0;
+}
+
+header > a {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+header li a {
+  font-size: 18px;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+.stage {
+  max-width: 800px;
+  margin: 40px auto 60px;
+}
+
+.stage img {
+  width: 100%;
+  height: auto;
+}
+
+.stage div {
+  margin: 40px auto 0;
+}
+
+.stage h1 {
+  margin-bottom: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.content figure {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.content img {
+  width: 100%;
+}
+
+.related-links {
+  max-width: 1200px;
+  display: flex;
+  margin: 80px auto;
+}
+
+.related-links article {
+  width: 50%;
+  margin: 0 20px;
+}
+
+.related-links article img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.related-links h2 {
+  margin-bottom: 10px;
+}
+
+.related-links a {
+  display: block;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.related-links a:hover {
+  color: darkblue;
+}
+
+footer {
+  padding: 40px;
+  background: darkblue;
+  color: papayawhip;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-left: 20px;
+}
+
+footer li a {
+  font-size: 18px;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
